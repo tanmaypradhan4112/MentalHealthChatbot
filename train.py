@@ -1,10 +1,8 @@
 import numpy as np
-import random
 import json
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from transformers import AutoTokenizer
 from nltk.stem.porter import PorterStemmer
 from model import (
     NeuralNet,
@@ -12,6 +10,7 @@ from model import (
 
 # Assuming you have a model.py file with the NeuralNet class
 from nltk_utils import bag_of_words, tokenize
+from sklearn.model_selection import train_test_split
 
 with open("intents.json", "r") as f:
     intents = json.load(f)
@@ -57,13 +56,17 @@ X_train = np.array(X_train)
 y_train = np.array(y_train)
 
 # Hyper-parameters
-num_epochs = 1000
+num_epochs = 2000
 batch_size = 8
-learning_rate = 0.001
+learning_rate = 0.0005
 input_size = len(X_train[0])
-hidden_size = 8
+hidden_size = 128
 output_size = len(tags)
 
+# Split the training data into train and validation sets
+X_train, X_val, y_train, y_val = train_test_split(
+    X_train, y_train, test_size=0.2, random_state=42
+)
 
 class ChatDataset(Dataset):
     def __init__(self):

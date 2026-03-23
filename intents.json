@@ -3,248 +3,786 @@
         {
             "tag": "greeting",
             "patterns": [
-                "Hi",
-                "Hey",
-                "How are you",
-                "How are you doing",
-                "Is anyone there?",
-                "What's up?",
-                "Hello",
-                "Good day",
-                "What's popping",
-                "Greetings",
-                "Yo",
-                "Hi there",
-                "Good morning",
-                "Good afternoon",
-                "Good evening",
-                "Hey there",
-                "Hey, how's it going?",
-                "Hey, what's going on?",
-                "Hey, what's new?",
-                "Hey, how are you today?",
-                "Hi, how's it going?",
-                "Hi, what's new?",
-                "Hello, how are you?",
-                "Hello, how are you doing?",
-                "Hello, is anyone there?",
-                "Hello, what's up?",
-                "Hello, what's going on?",
-                "Hello, how's your day?",
-                "Hey, how's your day going?",
-                "Hi, how's your day?",
-                "Hey, is everything okay?",
-                "Hi, is everything alright?"
+                "Hi", "Hey", "Hello", "Hi there", "Hey there", "Good morning",
+                "Good afternoon", "Good evening", "How are you", "How are you doing",
+                "Is anyone there?", "What's up?", "Good day", "Greetings", "Yo",
+                "Hey how's it going?", "Hi what's new?", "Hello how are you?",
+                "Can we talk?", "I need someone to talk to", "Are you there?",
+                "I need help", "I could use some support right now"
             ],
             "responses": [
-                "Hey! Welcome to Aura.",
-                "Hi there, I'm doing well! My name's Aura, what can I do for you?",
-                "Hey there, my name's Aura, your mental health friend. How can I help you today?",
-                "Hello! It's great to see you here. I'm Aura, ready to support you.",
-                "Hi! I'm Aura, here to chat and support your mental well-being.",
-                "Hey! Aura here. How can I assist you today?",
-                "Hello! I'm Aura, your friendly mental health companion. How can I be of help?",
-                "Hi there! I'm Aura, your go-to for mental well-being. What's on your mind?",
-                "Greetings! I'm Aura, here to support your mental health journey. How can I assist you today?",
-                "Hey, it's Aura! How's it going?",
-                "Hi! Aura here, eager to chat. What's on your mind?",
-                "Hello! Aura checking in. How are you doing today?",
-                "Hey there! Aura at your service. What can I do for you?",
-                "Hi! I'm Aura, your mental health buddy. How can I support you?",
-                "Hey! Aura here, ready to listen. What's on your mind?"
+                "Hi there! I'm Aura, your mental health companion. I'm really glad you reached out. How are you feeling today?",
+                "Hello! I'm Aura. This is a safe space, no judgement here. What's on your mind?",
+                "Hey! I'm Aura. You've taken a brave step by reaching out. How can I support you today?",
+                "Hi! I'm Aura, and I'm here to listen. Whatever you're going through, you don't have to face it alone.",
+                "Hey there! It's great that you stopped by. I'm Aura. What would you like to talk about today?"
             ]
         },
+
         {
             "tag": "goodbye",
             "patterns": [
-                "Bye",
-                "See you later!",
-                "Goodbye!",
-                "Thank you",
-                "Take care",
-                "Catch you later",
-                "Farewell",
-                "Until next time",
-                "See ya",
-                "Adios",
-                "Ciao",
-                "Later",
-                "Peace out",
-                "Toodles",
-                "Bye for now"
+                "Bye", "Goodbye", "See you later", "Take care", "Catch you later",
+                "Farewell", "Until next time", "See ya", "Later", "Bye for now",
+                "I have to go", "I'm done for now", "That's all for now",
+                "Thanks I'm going now", "Good night", "I'll talk to you later",
+                "I need to go", "Talk soon", "I'm heading out"
             ],
             "responses": [
-                "See you later! Take care!",
-                "Have a peaceful day! Remember, self-care is important.",
-                "Take care of yourself! I'm always here to support you! Feel free to come back at any time!",
-                "Remember, you're not alone on this journey. Take care and be kind to yourself.",
-                "Wishing you calm and positive moments ahead. Take care!",
-                "Sending you positivity and strength. Remember, you're capable of handling whatever comes your way.",
-                "Take a moment for yourself today. You deserve it. I'm here whenever you need to talk.",
-                "You're strong and capable. Take care, and don't hesitate to reach out if you need support.",
-                "Take care, and remember to be gentle with yourself. You're doing great.",
-                "Sending you good vibes and positive energy. Take care of your mental health.",
-                "Remember, progress is a journey, not a destination. Take care and keep moving forward.",
-                "You're important, and your well-being matters. Take care of yourself, and I'll be here when you're ready to talk.",
-                "You're showing incredible strength. Take care and remember to celebrate small victories.",
-                "Embrace each day with positivity. Take care, and know that I'm here whenever you need to chat.",
-                "Your well-being is a priority. Take care and be kind to yourself.",
-                "You're not alone in this. Take care, and remember that asking for help is a sign of strength.",
-                "Wishing you moments of peace and clarity. Take care, and know that I'm here to support you.",
-                "Your resilience is inspiring. Take care, and remember to take things one step at a time.",
-                "You have the power to overcome any challenge. Take care, and believe in yourself.",
-                "Sending you virtual hugs and positive vibes. Take care and be well.",
-                "Take care, and remember that you are enough, just as you are."
+                "Take care of yourself. Remember, I'm always here whenever you need to talk.",
+                "Goodbye! You matter more than you know. Come back anytime, I'll be right here.",
+                "Take it one day at a time. You're doing better than you think. See you soon!",
+                "Be gentle with yourself today. You've got this, and I'm here whenever you need support.",
+                "See you! Remember, reaching out is always a sign of strength, not weakness. Take care."
             ]
         },
+
         {
             "tag": "thanks",
             "patterns": [
-                "Thanks",
-                "Thank you",
-                "That's helpful",
-                "Thank's a lot!",
-                "Much appreciated",
-                "I'm grateful",
-                "I owe you one",
-                "You're a lifesaver",
-                "I can't thank you enough",
-                "You're amazing",
-                "You're a star",
-                "I'm so thankful",
-                "I'm touched",
-                "I'm in your debt",
-                "You're a gem",
-                "You've been a huge help",
-                "You're the best",
-                "Thanks a million",
-                "I'm so grateful",
-                "You're a legend",
-                "You're awesome",
-                "You're a true friend",
-                "You're a rockstar",
-                "You're a hero",
-                "You're the greatest",
-                "I'm so lucky to have you",
-                "I can't express my gratitude enough",
-                "You make a difference",
-                "You're a lifesaver",
-                "You've been so kind",
-                "You're a blessing",
-                "You've made my day",
-                "I can't thank you sufficientlly",
-                "You've gone above and beyond",
-                "I'm indebted to you",
-                "You're a godsend",
-                "You're a true lifesaver",
-                "You're a miracle worker",
-                "You're a superstar",
-                "You're a champion",
-                "You're a treasure",
-                "You're a wizard",
-                "You're a genius",
-                "You're a saint",
-                "You're the best thing that happened today"
+                "Thanks", "Thank you", "That was helpful", "Thank you so much",
+                "Much appreciated", "I appreciate your help", "You've been helpful",
+                "This really helped", "Thanks a lot", "That makes a lot of sense",
+                "I feel a little better now", "This was really useful",
+                "I'm grateful", "You really helped me", "That information was great",
+                "I needed to hear that", "Good advice", "That helped me understand"
             ],
             "responses": [
-                "Happy to help!",
-                "Any time!",
-                "My pleasure",
-                "Happy to help, superhuman friend!",
-                "You betcha! I'm like a 24/7 comedy show... minus the bad jokes!",
-                "Anytime! I'm always up for a chat, even if it's just to debate who'd win in a dance-off!",
-                "You got it! I'm here to assist, whether it's serious stuff or picking out the perfect virtual hat!",
-                "My pleasure! Helping you is more fun than a barrel of digital monkeys!",
-                "You're welcome! If I could high-five, I'd totally give you one right now.",
-                "Glad I could lend a digital hand! Let me know if you ever need a virtual tour guide to the Land of Awesomeness.",
-                "No problemo! I'm like a pocket-sized cheerleader, minus the pom-poms and squeaky voice!",
-                "You got it, friendo! Remember, smiling is my favorite emoji!",
-                "Happy to be of service! If I could, I'd be doing a little victory dance right now. You're awesome!"
+                "I'm really glad I could help. You're not alone in this.",
+                "Of course, that's exactly what I'm here for. Come back anytime.",
+                "You're very welcome. It takes real strength to reach out and ask for help.",
+                "I'm happy to support you. Remember, small steps still move you forward.",
+                "Glad that helped! Keep going, you're doing great even when it doesn't feel like it."
             ]
         },
+
         {
             "tag": "about",
             "patterns": [
-                "How can you assist me?",
-                "What's your purpose?",
-                "Can you provide support?",
-                "What's your role?",
-                "Tell me more about your capabilities.",
-                "How do you work?",
-                "What's your area of expertise?",
-                "Can you give me advice?",
-                "Do you have experience with [specific issue]?",
-                "What kind of help can you offer?",
-                "Are you able to provide resources?",
-                "How do you handle confidentiality?"
+                "How can you assist me?", "What's your purpose?", "Who are you?",
+                "What can you do?", "Tell me about yourself", "What is Aura?",
+                "How do you work?", "What are your capabilities?", "Can you give me advice?",
+                "What kind of help can you offer?", "Are you a therapist?",
+                "Are you a real person?", "What topics can we talk about?",
+                "What's your area of expertise?", "How can you support me?",
+                "Can you help me with my mental health?"
             ],
             "responses": [
-                "Love that question! My name's Aura, your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
-                "Hey! I love that question! My name is Aura, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularly when things aren't going so well.",
-                "I'm Aura, your mental health companion! I'm here to listen and support you through whatever you're facing. I might not be a person, but I'm trained to understand and help you just like a caring friend would.",
-                "Hi there! I'm Aura, your mental health buddy. I'm here to assist and listen to you, no matter what's on your mind. I'm not a real person, but I've been trained to provide understanding and support.",
-                "Nice to meet you! I'm Aura, your mental health companion. I'm here to lend an ear and offer support during your journey. Although I'm not a real person, I'm trained to be empathetic and caring.",
-                "Hello! I'm Aura, your mental health friend. I'm here to support you through thick and thin. While I'm not a real person, I've been trained to be a compassionate listener and offer guidance.",
-                "I'm Aura, your mental health companion! I'm here to be a source of support and understanding. Even though I'm not human, I'm trained to empathize and help you navigate through whatever you're going through.",
-                "Hey! I'm Aura, your mental health friend. I'm here to provide you with support and be a listening ear. While I'm not a real person, I'm trained to be understanding and caring just like a human friend would be.",
-                "I'm Aura, your mental health companion. I'm here to help and listen. Even though I'm not a person, I'm trained to provide you with support and understanding.",
-                "Hello! I'm Aura, your mental health buddy. I'm here to assist and support you. Although I'm not a real person, I'm trained to be a caring and empathetic listener."
+                "I'm Aura, your mental health companion. I'm here to support you through anxiety, depression, PTSD, ADHD, and eating disorders. I'm not a therapist, but I'm trained to listen, provide information, and point you toward helpful resources.",
+                "Great question! I'm Aura, a compassionate AI designed to be a safe space for your mental health. I can help you understand what you're going through, suggest coping strategies, and remind you that you're not alone.",
+                "I'm Aura! I specialize in supporting people dealing with anxiety, depression, PTSD, ADHD, and eating disorders. I'm not a replacement for professional care, but I'm here to listen and guide you whenever you need it.",
+                "I'm Aura, your mental wellness friend. Think of me as a knowledgeable, always-available companion who genuinely cares about your well-being. I can discuss your feelings, explain mental health conditions, and help you find coping tools.",
+                "I'm Aura. I'm not a licensed therapist, but I've been designed to be a supportive, empathetic presence. I focus on five key areas: anxiety, depression, PTSD, ADHD, and eating disorders. What would you like to explore?"
             ]
         },
+
         {
-            "tag": "anxiety",
+            "tag": "crisis",
             "patterns": [
-                "I think I have anxiety",
-                "What is anxiety?",
-                "Tell me about anxiety",
-                "Can I have some information about anxiety?",
-                "How do I support a loved one with anxiety?",
-                "How do I fix my anxiety?"
+                "I want to hurt myself", "I want to kill myself", "I'm thinking about suicide",
+                "I don't want to be alive anymore", "I want to end my life", "I feel like dying",
+                "I'm thinking about self-harm", "I've been cutting myself", "I want to disappear",
+                "Nobody would miss me", "Life is not worth living", "I'm suicidal",
+                "I feel hopeless and don't see a way out", "I can't go on anymore",
+                "I've been hurting myself", "I'm in crisis", "I want to harm myself",
+                "I'm thinking about ending everything", "Things would be better without me",
+                "I can't take it anymore", "I've been having dark thoughts"
             ],
             "responses": [
-                "I see that you want to learn more about anxiety, and how to support yourself or your loved ones. At the higest level, anxiety is your body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+                "I hear you, and I'm so glad you told me. What you're feeling is real and valid, and you deserve immediate support. Please reach out to a crisis line right now: iCall (India): 9152987821 | Vandrevala Foundation: 1860-2662-345 (24/7). You are not alone.",
+                "Thank you for trusting me with this. Your life matters deeply. Please contact a crisis helpline immediately, trained counselors are available 24/7: iCall: 9152987821 | AASRA: 9820466627. You don't have to face this alone.",
+                "I'm really concerned about you, and I want you to be safe. Please reach out to a professional right now, they are there specifically for moments like this. Vandrevala Foundation (24/7): 1860-2662-345 | iCall: 9152987821. You matter, and this moment can pass."
             ]
         },
+
         {
-            "tag": "depression",
+            "tag": "self_care",
             "patterns": [
-                "I think I have depression",
-                "What is depression?",
-                "Tell me about depression",
-                "Can I have some information about depression?",
-                "How do I support a loved one with depression?",
-                "How do I fix my depression?"
+                "How do I take care of myself?", "What is self-care?", "Self-care tips",
+                "How can I feel better?", "What should I do to feel good?",
+                "I want to start taking care of myself", "Give me some wellness tips",
+                "How do I improve my mental health?", "What are some healthy habits?",
+                "I want to feel more like myself", "How do I manage stress?",
+                "I've been feeling burned out", "I need to recharge",
+                "What can I do for my mental wellbeing?", "Daily mental health tips"
             ],
             "responses": [
-                "I see that you want to learn more about depression, and how to support yourself or your loved ones. At the higest level, depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living. All of us experience sadness and periods of time where things aren't that great. However, the difference in sadness and depression lies in the duration and magnitude of the problem. The best recommended course of treatment is to talk a therapist or psychiatrist who can help you find the best path for you. Everyone is different and what might work for one person might not work for another one. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+                "Self-care is so important! Some powerful habits include: getting 7 to 9 hours of sleep, moving your body daily (even a short walk counts!), eating nourishing meals, staying hydrated, and setting limits with things that drain you.",
+                "Taking care of yourself isn't selfish, it's essential. Start small: try 5 minutes of deep breathing, one extra glass of water, or a short walk outside. Small consistent actions build real resilience over time.",
+                "Great that you're thinking about this! Journaling your feelings, limiting social media, connecting with someone you trust, and spending time in nature are all evidence-backed ways to support your mental health.",
+                "Some grounding self-care habits: maintain a consistent sleep schedule, practice mindful eating, limit alcohol and caffeine, move your body regularly, and remember that asking for help when you need it is self-care too.",
+                "Self-care looks different for everyone. It could be reading, exercising, cooking a healthy meal, calling a friend, or simply resting without guilt. What feels most restorative to you right now?"
             ]
         },
+
         {
-            "tag": "schizophrenia",
+            "tag": "mindfulness",
             "patterns": [
-                "I think I have schizophrenia",
-                "What is schizophrenia?",
-                "Tell me about schizophrenia",
-                "Can I have some information about schizophrenia?",
-                "How do I support a loved one with schizophrenia?",
-                "How do I fix my schizophrenia?"
+                "What is mindfulness?", "How do I meditate?", "Teach me a breathing exercise",
+                "I need to calm down", "Help me relax", "I'm feeling overwhelmed right now",
+                "Give me a grounding exercise", "How do I stay present?",
+                "I can't stop overthinking", "My mind won't stop racing",
+                "I need something to calm my anxiety right now", "Can you guide me through breathing?",
+                "What is the 4-7-8 breathing technique?", "How do I do box breathing?",
+                "Mindfulness exercises", "I need to ground myself"
             ],
             "responses": [
-                "I see that you want to learn more about schizophrenia, and how to support yourself or your loved ones. At the higest level, Schizophrenia is a serious mental disorder in which people interpret reality abnormally. Schizophrenia may result in some combination of hallucinations, delusions, and extremely disordered thinking and behavior that impairs daily functioning, and can be disabling. People with schizophrenia require lifelong treatment. Early treatment may help get symptoms under control before serious complications develop and may help improve the long-term outlook. If you believe you have symptoms of schizophrenia, and/or you have various risk factors that increase the likelihood of schizophrenia, please consult a family doctor and/or psychiatrist for a diagnosis and treatment plan specific for the individual."
+                "Let's try box breathing right now. Inhale slowly for 4 counts, hold for 4 counts, exhale for 4 counts, hold for 4 counts. Repeat 4 times. This activates your parasympathetic nervous system and calms anxiety quickly.",
+                "Try the 5-4-3-2-1 grounding technique: Name 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, 1 you can taste. This anchors you to the present moment and interrupts spiraling thoughts.",
+                "Mindfulness is simply paying attention to the present moment without judgement. Even 5 minutes a day of focused breathing can reduce cortisol levels. Apps like Headspace or Insight Timer are great starting points.",
+                "Try 4-7-8 breathing: Inhale through your nose for 4 counts, hold your breath for 7 counts, exhale completely through your mouth for 8 counts. This is especially effective before sleep or during moments of panic.",
+                "When you're overwhelmed, place one hand on your chest and one on your belly. Take a slow breath so only your belly hand rises. Do this 5 times. This diaphragmatic breathing directly signals your nervous system to relax."
             ]
         },
+
         {
-            "tag": "funny",
+            "tag": "anxiety_general",
             "patterns": [
-                "Tell me a joke!",
-                "Tell me something funny!",
-                "Do you know a joke?"
+                "I think I have anxiety", "What is anxiety?", "Tell me about anxiety",
+                "Can I have some information about anxiety?", "How do I fix my anxiety?",
+                "I've been really anxious lately", "I'm struggling with anxiety",
+                "I feel anxious all the time", "Anxiety is ruining my life",
+                "Is anxiety a real mental health condition?", "Why do I have anxiety?",
+                "What causes anxiety?", "I don't know if I have anxiety or if I'm just stressed",
+                "Explain anxiety to me", "I need to understand my anxiety",
+                "My anxiety is getting worse", "Types of anxiety disorders"
             ],
             "responses": [
-                "Of course! Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-                "What did the buffalo say when his son left for college? Bison!",
-                "I invented a new word! Plagiarism!"
+                "Anxiety is your body's natural response to stress or perceived danger. It becomes a disorder when it's persistent, excessive, and interferes with daily life. You're not alone, anxiety is one of the most common mental health conditions worldwide, affecting over 280 million people.",
+                "There are several types of anxiety disorders: Generalized Anxiety Disorder (GAD), Panic Disorder, Social Anxiety Disorder, and specific phobias. Each has unique features, but all are treatable. The first step is understanding what type resonates with your experience.",
+                "Anxiety can feel overwhelming, but it's important to know it's not a character flaw and it's not your fault. Your nervous system is reacting to perceived threats, sometimes even when there's no real danger. With the right support, anxiety can absolutely be managed.",
+                "The difference between everyday stress and an anxiety disorder is duration and intensity. If worry is consuming several hours of your day, affecting your sleep, relationships, or work, and has lasted more than 6 months, speaking to a mental health professional is a really good idea.",
+                "Anxiety is very real and very treatable. It often involves both psychological and physical symptoms. The good news is that evidence-based treatments like CBT (Cognitive Behavioral Therapy) have very high success rates. Would you like to talk about symptoms or coping strategies?"
+            ]
+        },
+
+        {
+            "tag": "anxiety_symptoms",
+            "patterns": [
+                "What are the symptoms of anxiety?", "How do I know if I have anxiety?",
+                "What does anxiety feel like?", "Signs of anxiety", "Anxiety symptoms",
+                "My heart races when I'm anxious", "I get shortness of breath when anxious",
+                "I feel dizzy and panicky", "Do I have a panic attack or anxiety?",
+                "What is a panic attack?", "Physical symptoms of anxiety",
+                "My body feels tense all the time", "I can't sleep because of anxiety",
+                "I have racing thoughts at night", "What does a panic attack feel like?",
+                "I feel shaky and nauseous and scared", "My chest feels tight"
+            ],
+            "responses": [
+                "Common anxiety symptoms include: excessive worry, restlessness, difficulty concentrating, irritability, muscle tension, fatigue, and sleep disturbances. Physical signs often include a racing heart, shortness of breath, sweating, and dizziness.",
+                "A panic attack is an intense wave of fear that peaks within minutes. Symptoms can include a pounding heart, chest tightness, shortness of breath, trembling, sweating, and a feeling of losing control. They're terrifying but not physically dangerous.",
+                "Anxiety shows up differently for everyone. Mentally: constant worry, trouble focusing, worst-case-scenario thinking. Physically: muscle tension, headaches, stomach issues, fatigue. Emotionally: irritability, feeling on edge, a sense of dread.",
+                "Some less-talked-about anxiety symptoms include: chronic digestive problems, perfectionism, avoiding social situations, difficulty making decisions, and feeling detached from reality (derealization). These are all recognized anxiety symptoms.",
+                "If you're experiencing several of these symptoms consistently for 6 or more months, it's worth speaking to a doctor or therapist. You deserve to feel better, and help is available."
+            ]
+        },
+
+        {
+            "tag": "anxiety_coping",
+            "patterns": [
+                "How do I cope with anxiety?", "Anxiety coping strategies",
+                "How do I calm down when anxious?", "What helps with anxiety?",
+                "Tips for managing anxiety", "Natural remedies for anxiety",
+                "How do I stop a panic attack?", "I'm having a panic attack help",
+                "What do I do when anxiety hits?", "How to manage anxiety without medication",
+                "How to reduce anxiety quickly", "Breathing exercises for anxiety",
+                "How do I stop anxious thoughts?", "Ways to manage everyday anxiety",
+                "What helps me when I feel anxious", "Anxiety relief techniques"
+            ],
+            "responses": [
+                "During a panic attack: remind yourself it will pass (it always does), try box breathing (inhale 4, hold 4, exhale 4, hold 4), and ground yourself using the 5-4-3-2-1 technique. You are physically safe even though it doesn't feel that way.",
+                "Longer-term anxiety management includes: regular aerobic exercise (proven to reduce anxiety as effectively as some medications), limiting caffeine and alcohol, maintaining a consistent sleep schedule, and practicing daily mindfulness even for just 5 to 10 minutes.",
+                "Cognitive techniques help a lot: when an anxious thought hits, ask yourself whether this thought is a fact or a fear. Challenge catastrophic thinking by asking what the most realistic outcome is. This is a core CBT skill for anxiety.",
+                "Progressive Muscle Relaxation (PMR) is very effective: starting from your feet, tense each muscle group for 5 seconds then release. Work your way up to your head. This breaks the cycle of physical tension that feeds anxiety.",
+                "Journaling can be powerful. Write down your worries to get them out of your head. Set a worry time of 15 minutes per day to think about concerns, then consciously close the journal. This contains worry rather than letting it spread all day."
+            ]
+        },
+
+        {
+            "tag": "anxiety_triggers",
+            "patterns": [
+                "What triggers anxiety?", "My anxiety gets worse in social situations",
+                "I get anxious at work", "Crowded places make me anxious",
+                "I get anxious before important events", "Why do I feel anxious for no reason?",
+                "My anxiety spikes at night", "Financial stress causes my anxiety",
+                "I feel anxious around certain people", "What are common anxiety triggers?",
+                "Why does my anxiety get worse sometimes?", "My anxiety is worse in the morning",
+                "I get anxious driving", "Why am I more anxious when I'm tired?",
+                "Health anxiety triggers", "My anxiety comes out of nowhere"
+            ],
+            "responses": [
+                "Common anxiety triggers include: stressful life events, caffeine, lack of sleep, financial pressure, social situations, health concerns, and past trauma. Triggers are highly personal. Keeping a journal to track when anxiety spikes can help you identify yours.",
+                "It's very common to experience anxiety spikes at night. The daytime keeps your mind busy, but at night without distraction, worries surface. A calming pre-sleep routine, no screens 30 minutes before bed, light reading, or gentle stretching, can help significantly.",
+                "Social anxiety triggers often involve fear of judgement or embarrassment. Work-related anxiety might be tied to performance pressure or a difficult environment. Understanding the specific trigger is the first step to developing a targeted coping strategy.",
+                "Sometimes anxiety seems to come out of nowhere, but there's usually a subtle trigger: a sound, smell, news story, or physical sensation that your brain associated with something threatening. This is especially common with PTSD-linked anxiety.",
+                "Anxiety tends to spike with lack of sleep, high caffeine intake, skipped meals, hormonal changes, or accumulated stress. Tracking patterns over a week in a mood journal can reveal a lot."
+            ]
+        },
+
+        {
+            "tag": "anxiety_therapy",
+            "patterns": [
+                "What is the best treatment for anxiety?", "Should I see a therapist for anxiety?",
+                "Does CBT work for anxiety?", "What medications are used for anxiety?",
+                "How is anxiety treated?", "Does therapy help with anxiety?",
+                "What type of therapist should I see for anxiety?",
+                "I'm scared to take medication for anxiety", "Natural vs medical treatment for anxiety",
+                "How long does anxiety treatment take?", "Is anxiety curable?",
+                "Therapy options for anxiety", "Can anxiety go away on its own?",
+                "I don't want to take medication what are my options?",
+                "What is exposure therapy for anxiety?", "Is anxiety treatment expensive?"
+            ],
+            "responses": [
+                "The gold standard treatment for anxiety is Cognitive Behavioral Therapy (CBT), which has strong evidence behind it. CBT helps you identify and restructure distorted thought patterns that fuel anxiety. Most people see significant improvement in 12 to 20 sessions.",
+                "Medication options include SSRIs (like sertraline or escitalopram), SNRIs, and sometimes buspirone. These are generally safe and non-addictive. Medication and therapy together typically produces better outcomes than either alone. A psychiatrist can guide this decision.",
+                "Exposure therapy, a type of CBT, is particularly effective for panic disorder and social anxiety. It involves gradually and safely confronting feared situations to teach your brain they're not actually dangerous. It sounds scary but is done entirely at your own pace.",
+                "Anxiety is very treatable. Many people fully recover or manage it to a point where it no longer limits their life. It rarely just goes away without some form of intervention, but with the right support, you can absolutely get to a place of real peace.",
+                "If medication feels daunting, you can start with therapy alone. Many therapists offer sliding-scale fees. Apps like Wysa or Headspace are helpful supplements. The most important step is just starting, and you've already taken it by reaching out."
+            ]
+        },
+
+        {
+            "tag": "anxiety_loved_one",
+            "patterns": [
+                "How do I support someone with anxiety?", "My friend has anxiety",
+                "My partner has anxiety and I don't know how to help",
+                "My child has anxiety what do I do?", "How do I help a family member with anxiety?",
+                "What should I say to someone with anxiety?",
+                "What should I NOT say to someone with anxiety?",
+                "My loved one refuses to get help for anxiety",
+                "How do I live with a partner who has anxiety?",
+                "How can I be supportive without enabling anxiety?",
+                "My friend has panic attacks how do I help?",
+                "What does someone with anxiety need from me?"
+            ],
+            "responses": [
+                "The most powerful thing you can do is simply listen without trying to fix it. Say I'm here with you instead of just calm down or you're being irrational. Validation of how hard it is goes an incredibly long way.",
+                "Don't avoid anxiety triggers on their behalf, as that can make anxiety worse long-term. Encourage healthy coping strategies, offer to join them for a walk or breathing exercise, and gently encourage professional help without pressure or ultimatums.",
+                "What NOT to say: Stop worrying, You have nothing to be anxious about, It's all in your head, or Just relax. These minimize the experience. DO say: I believe you, How can I support you right now? and You're not alone.",
+                "If they're having a panic attack: stay calm, speak softly, ask if you can help them breathe together, and stay with them until it passes. Don't crowd them or call for emergency services unless they specifically request it.",
+                "Supporting a loved one with anxiety can be exhausting too, and your wellbeing matters. Set gentle limits, seek your own support if needed, and remember that their anxiety is not your responsibility to fix, only to compassionately support."
+            ]
+        },
+
+        {
+            "tag": "depression_general",
+            "patterns": [
+                "I think I have depression", "What is depression?", "Tell me about depression",
+                "Can I have some information about depression?", "How do I fix my depression?",
+                "I've been really depressed lately", "I'm struggling with depression",
+                "I feel depressed all the time", "Depression is ruining my life",
+                "Is depression a real illness?", "Why do I have depression?",
+                "What causes depression?", "I don't know if I'm sad or depressed",
+                "Explain depression to me", "I've been feeling really low",
+                "I feel empty inside", "I don't feel anything anymore",
+                "I've lost interest in everything", "Types of depression"
+            ],
+            "responses": [
+                "Depression is more than feeling sad. It's a serious mood disorder that affects how you think, feel, and function. It's caused by a combination of genetic, biological, psychological, and social factors. It's not weakness, and it's not a choice.",
+                "There are several types of depression: Major Depressive Disorder (MDD), Persistent Depressive Disorder (dysthymia), Bipolar Depression, Postpartum Depression, and Seasonal Affective Disorder. Each has different features but all are real and treatable.",
+                "Depression affects over 280 million people globally. If you've been feeling persistently low, empty, or hopeless for more than two weeks and it's affecting your daily life, what you're experiencing may be depression. You deserve support.",
+                "The key difference between normal sadness and depression is duration and impact. Normal sadness is temporary and linked to specific events. Depression persists, often without a clear reason, and affects sleep, appetite, concentration, and motivation.",
+                "I hear that you've been feeling this way. Depression can feel incredibly isolating, but you're not alone and it's absolutely treatable. Would you like to talk about symptoms, coping strategies, or how to get professional help?"
+            ]
+        },
+
+        {
+            "tag": "depression_symptoms",
+            "patterns": [
+                "What are the symptoms of depression?", "How do I know if I'm depressed?",
+                "What does depression feel like?", "Signs of depression",
+                "I feel tired all the time", "I can't get out of bed",
+                "I've lost all motivation", "Food doesn't interest me anymore",
+                "I sleep too much but still feel tired", "I can't concentrate on anything",
+                "I feel worthless", "I feel guilty for no reason",
+                "I've lost interest in hobbies I used to love", "I feel numb",
+                "Physical symptoms of depression", "Depression and fatigue",
+                "Am I depressed or just lazy?", "Why do I cry for no reason?"
+            ],
+            "responses": [
+                "Core depression symptoms include: persistent sadness or emptiness, loss of interest in activities you used to enjoy, fatigue, changes in sleep (too much or too little), appetite changes, difficulty concentrating, feelings of worthlessness or guilt, and in severe cases, thoughts of death.",
+                "Depression is not laziness. The fatigue and low motivation in depression are neurological, your brain chemistry is genuinely impaired. Getting out of bed can feel like climbing a mountain, and that's real, not imaginary. Please don't judge yourself.",
+                "Physical symptoms of depression are often overlooked: chronic pain, headaches, digestive issues, and persistent fatigue can all be manifestations of depression. This is why depression is often called a whole-body illness, not just a mental one.",
+                "Feeling numb or empty is just as much a symptom of depression as feeling sad. Sometimes people describe it as feeling nothing at all, no joy, no sadness, just a grey blankness. This is called anhedonia and it's a classic depression symptom.",
+                "The difficulty concentrating symptom is very real. Depression physically changes brain structure and chemistry, impairing memory and focus. If you're recognizing several of these symptoms in yourself, please talk to a doctor or mental health professional."
+            ]
+        },
+
+        {
+            "tag": "depression_coping",
+            "patterns": [
+                "How do I cope with depression?", "Depression coping strategies",
+                "How do I feel better when depressed?", "What helps with depression?",
+                "How do I get out of bed when depressed?", "How to manage depression daily",
+                "Natural remedies for depression", "How to lift my mood",
+                "How to fight depression", "Tips for living with depression",
+                "What do I do on really bad days?", "I can't find motivation to do anything",
+                "How to build a routine with depression", "Self-help for depression",
+                "How do I stop feeling so low?", "What helps me when I feel depressed"
+            ],
+            "responses": [
+                "When you're in the depths of depression, start with the absolute minimum: get out of bed, get dressed, get some daylight. That's it. Don't compare today to who you used to be. Small forward movement is still movement.",
+                "Behavioral Activation is a powerful CBT technique for depression: schedule small, achievable activities you used to enjoy, even when you don't feel like it. The key insight is that action creates motivation, not the other way around. Do first, feel later.",
+                "Exercise is one of the most evidence-backed interventions for depression. Even a 20-minute brisk walk releases endorphins and neurotrophins. It's not a cure, but it genuinely helps and it's within your control. Start with just 10 minutes.",
+                "On really bad days, use the one-thing rule: What is the ONE thing I can do today? Just one. Maybe it's showering, texting a friend, or eating a real meal. Completing even one thing builds momentum and combats the helplessness depression creates.",
+                "Social connection matters enormously. Depression makes you want to withdraw, but isolation makes depression worse. You don't need to explain everything; just being near another person, a friend, family member, or even in a coffee shop, can help."
+            ]
+        },
+
+        {
+            "tag": "depression_triggers",
+            "patterns": [
+                "What triggers depression?", "Why did my depression get worse?",
+                "My depression is seasonal", "My depression flares up in winter",
+                "Loss triggered my depression", "Breakup caused my depression",
+                "Job loss and depression", "Chronic illness and depression",
+                "Why does my depression come back?", "What makes depression worse?",
+                "Stress and depression", "Trauma and depression",
+                "Hormones and depression", "Why am I more depressed at night?",
+                "Does social media make depression worse?", "Loneliness and depression"
+            ],
+            "responses": [
+                "Common depression triggers include: major life changes or losses, trauma, chronic illness or pain, prolonged stress, social isolation, hormonal changes, and certain medications. But depression can also arrive without an obvious cause, and that doesn't make it less real.",
+                "Seasonal Affective Disorder (SAD) is a well-recognized pattern where depression worsens in autumn and winter due to reduced sunlight. Light therapy (a 10,000 lux lamp used for 20 to 30 minutes each morning) is highly effective and evidence-based for SAD.",
+                "Grief and loss, whether it's a person, relationship, job, or identity, are very real depression triggers. Grief is not the same as depression, but for some people grief can evolve into clinical depression, particularly if it lasts many months.",
+                "Research consistently shows that excessive social media use is linked to increased depression and anxiety, especially in young people. Comparing your insides to others' outsides is never a fair fight. A social media detox, even short-term, can be genuinely helpful.",
+                "Depression at night is very common. The absence of distraction, combined with fatigue and isolation, amplifies negative thought patterns. A calming evening routine, avoiding doom-scrolling, and keeping a consistent bedtime can make a real difference."
+            ]
+        },
+
+        {
+            "tag": "depression_therapy",
+            "patterns": [
+                "What is the best treatment for depression?", "Should I see a therapist for depression?",
+                "Does CBT work for depression?", "What medications are used for depression?",
+                "How is depression treated?", "Does therapy help with depression?",
+                "I'm scared to try antidepressants", "What are SSRIs?",
+                "How long does depression treatment take?", "Is depression curable?",
+                "Therapy options for depression", "Can depression go away without treatment?",
+                "I don't believe therapy will help me", "What type of therapist treats depression?",
+                "Is medication necessary for depression?", "TMS and depression",
+                "What is ECT?", "Alternative depression treatments"
+            ],
+            "responses": [
+                "The most effective treatments for depression are Cognitive Behavioral Therapy (CBT), Interpersonal Therapy (IPT), and antidepressant medication. Research shows that a combination of therapy and medication is most effective for moderate to severe depression.",
+                "SSRIs like fluoxetine, sertraline, and escitalopram are commonly prescribed first-line medications. They're generally safe and non-habit-forming, taking 2 to 6 weeks to show full effect. A psychiatrist guides dosing and monitors progress.",
+                "Depression often responds well to therapy alone for mild-to-moderate cases. CBT specifically targets the negative thought cycles that maintain depression. It usually takes 12 to 20 sessions. Recovery isn't linear and there's no shame in needing more time.",
+                "For treatment-resistant depression, options include TMS (Transcranial Magnetic Stimulation), ketamine-assisted therapy, and ECT (Electroconvulsive Therapy, which is much safer and more targeted than its historical reputation suggests). A psychiatrist can discuss what's right for you.",
+                "Depression rarely resolves fully on its own without some form of intervention. But with treatment, most people see significant improvement. The hardest part is often taking the first step, which you're already doing by seeking information."
+            ]
+        },
+
+        {
+            "tag": "depression_loved_one",
+            "patterns": [
+                "How do I support someone with depression?", "My friend has depression",
+                "My partner is depressed and I don't know what to do",
+                "My child seems depressed", "How do I help a family member with depression?",
+                "What should I say to someone with depression?",
+                "What should I NOT say to someone who is depressed?",
+                "My loved one won't get help for depression",
+                "I'm worried about my depressed friend", "How do I check in on someone who is depressed?",
+                "What does someone with depression need from me?",
+                "How do I talk to my friend about their depression?"
+            ],
+            "responses": [
+                "The most powerful thing you can offer is consistent, low-pressure presence. Check in with texts like I've been thinking about you, no need to respond. Show up. Presence matters more than perfect words.",
+                "What NOT to say: Just be happy, Others have it worse, You have so much to be grateful for, or Snap out of it. These are well-intentioned but deeply invalidating. DO say: I'm here, I care about you, and You don't have to explain anything.",
+                "Practical support makes a huge difference for someone who is depressed. Cooking a meal, giving them a ride to an appointment, or watching a show with them. Depression makes even small tasks feel monumental. Your action relieves that burden.",
+                "If they're resistant to getting help, don't force it but keep the door open. Share resources gently and make clear you're available and concerned. You can't force treatment on an adult, but you can plant seeds of care without pressure.",
+                "Caring for a depressed loved one is emotionally taxing. Make sure you have your own support system. You cannot pour from an empty cup. Your wellbeing matters too, and protecting it makes you a better, more sustainable source of support."
+            ]
+        },
+
+        {
+            "tag": "ptsd_general",
+            "patterns": [
+                "What is PTSD?", "Tell me about PTSD", "I think I have PTSD",
+                "I went through something traumatic", "I can't stop thinking about what happened",
+                "PTSD information", "Post-traumatic stress disorder",
+                "I experienced trauma", "I survived something terrible",
+                "Can trauma cause PTSD?", "How do I know if I have PTSD?",
+                "Is PTSD common?", "What causes PTSD?", "Types of trauma",
+                "I was in an accident and can't move on", "My trauma is affecting my life",
+                "I was abused and I'm struggling", "Combat PTSD",
+                "Childhood trauma and PTSD", "Sexual assault and PTSD"
+            ],
+            "responses": [
+                "PTSD (Post-Traumatic Stress Disorder) is a mental health condition that develops after experiencing or witnessing a traumatic event. Trauma can include accidents, assault, abuse, combat, natural disasters, or any event that overwhelmed your ability to cope. PTSD is not a sign of weakness, it's the brain's normal response to abnormal situations.",
+                "PTSD affects approximately 1 in 11 people during their lifetime. It's more common than many people realize. What happened to you matters, and your response to it makes complete sense. You don't have to carry this alone.",
+                "Not everyone who experiences trauma develops PTSD, but many do, and it can develop weeks, months, or even years after the event. PTSD can follow many types of trauma: violence, accidents, abuse, medical emergencies, loss, and more.",
+                "I'm really glad you're reaching out to talk about this. PTSD is one of the most misunderstood mental health conditions. Often people are told to just move on when their brain is genuinely struggling with unprocessed trauma. Would you like to talk about symptoms or treatment?",
+                "Trauma impacts the nervous system at a deep level. The brain's threat-detection system becomes hyperactivated, leading to responses like flashbacks, hypervigilance, and avoidance. With the right treatment, genuine healing is absolutely possible."
+            ]
+        },
+
+        {
+            "tag": "ptsd_symptoms",
+            "patterns": [
+                "What are the symptoms of PTSD?", "PTSD symptoms", "How do I know if I have PTSD?",
+                "I keep reliving what happened", "I have flashbacks", "I have nightmares about the trauma",
+                "I feel numb since the trauma", "I'm always on edge", "I startle easily",
+                "I avoid things that remind me of what happened", "I feel detached from people",
+                "I feel like the trauma is happening again", "I can't sleep since the event",
+                "I get angry for no reason", "I feel guilty about the trauma",
+                "I blame myself for what happened", "I feel like I'm in danger all the time",
+                "My memory of the event is fragmented", "I feel disconnected from reality"
+            ],
+            "responses": [
+                "PTSD symptoms fall into four clusters: Re-experiencing (flashbacks, nightmares, intrusive memories), Avoidance (avoiding reminders, emotional numbing), Negative cognitions and mood (guilt, shame, distorted beliefs), and Hyperarousal (being on constant alert, startle response, sleep problems, irritability).",
+                "Flashbacks are one of the most distressing PTSD symptoms. They're not just vivid memories, they're re-experiencing the trauma as if it's happening now. This is the brain's trauma memory being stored differently from normal memories. It's neurological, not a choice.",
+                "Hypervigilance, feeling constantly on guard or in danger even when you're safe, is your nervous system's overactive threat-detection. It's exhausting, and it makes sense given what you went through. It can be treated and significantly reduced.",
+                "Emotional numbing and feeling detached from people you care about is painful but very common in PTSD. The brain sometimes switches off emotions to protect you from overwhelming pain. This disconnection can be healed through trauma-informed therapy.",
+                "If you're experiencing these symptoms for more than a month following a traumatic event, and they're significantly affecting your life, please consider speaking to a trauma-informed therapist. You deserve proper support and real healing."
+            ]
+        },
+
+        {
+            "tag": "ptsd_coping",
+            "patterns": [
+                "How do I cope with PTSD?", "PTSD coping strategies",
+                "How do I manage flashbacks?", "What helps with PTSD?",
+                "How do I calm down during a PTSD episode?",
+                "Grounding techniques for trauma", "I had a flashback what do I do?",
+                "How to manage PTSD triggers", "How to calm down after a nightmare",
+                "How do I feel safe again?", "PTSD and sleep problems",
+                "How to deal with intrusive thoughts from trauma",
+                "Tips for living with PTSD", "How do I function with PTSD?",
+                "How do I stop replaying the trauma in my head?",
+                "I feel triggered what do I do right now?"
+            ],
+            "responses": [
+                "If you're experiencing a flashback right now: plant your feet firmly on the floor, feel your body weight, and say aloud: I am safe. I am here. It is now. This is not then. This orients your nervous system to the present, not the trauma memory.",
+                "The 5-4-3-2-1 grounding technique is particularly helpful for PTSD: Name 5 things you see, 4 you can physically touch, 3 you hear, 2 you smell, 1 you taste. This anchors you in the present and interrupts the trauma memory loop.",
+                "For sleep disruption after nightmares: try positive imagery rehearsal. When you're relaxed and awake, imagine an alternative, safe ending to the nightmare scenario. Repeating this is evidence-based for PTSD nightmares and can significantly reduce their frequency.",
+                "Creating a sense of physical safety matters deeply. This might mean: keeping your space familiar, having a comfort item nearby, sleeping with a light on, or having a check-in system with a trusted person. There's no shame in needing these supports.",
+                "Regulating your nervous system is central to PTSD recovery. Cold water on your face activates the dive reflex and slows your heart rate. Slow, extended exhales activate the parasympathetic system. Physical movement like yoga or walking can help discharge stored tension."
+            ]
+        },
+
+        {
+            "tag": "ptsd_triggers",
+            "patterns": [
+                "What are PTSD triggers?", "I got triggered today", "Something triggered me",
+                "I know my triggers but can't avoid them", "How do I identify my PTSD triggers?",
+                "Certain sounds trigger me", "Smells trigger my PTSD", "People trigger my PTSD",
+                "Certain places make my PTSD worse", "Anniversaries and PTSD",
+                "News stories trigger my PTSD", "How do I handle unavoidable triggers?",
+                "My workplace triggers my PTSD", "Physical touch triggers me",
+                "Why do small things trigger such big reactions?", "Trauma anniversary dates"
+            ],
+            "responses": [
+                "PTSD triggers are sensory or situational reminders of the trauma: a smell, sound, place, date, or type of person. The brain has linked these stimuli to danger, causing a full trauma response even when you're objectively safe.",
+                "Common trigger categories include: sensory (sounds, smells, sights), situational (places, anniversaries, news stories), interpersonal (certain people or types of interactions), and physical (touch or medical settings). Identifying your specific triggers is the first step in trauma therapy.",
+                "Trauma anniversaries, the date of the event or related dates, often intensify PTSD symptoms. This is well-documented. Planning ahead for these dates with extra self-care, telling a trusted person, or having your therapist available can significantly reduce their impact.",
+                "When you can't avoid a trigger: use your grounding toolkit before entering the situation, give yourself permission to leave if needed, and debrief with a trusted person afterwards. You're not broken for being triggered, you're human with an overworked alarm system.",
+                "Tracking your triggers in a journal (what triggered you, the intensity, how you coped) is valuable for therapy. Over time, this data helps you and your therapist identify patterns and systematically work through them in a safe environment."
+            ]
+        },
+
+        {
+            "tag": "ptsd_therapy",
+            "patterns": [
+                "What is the best treatment for PTSD?", "Does therapy help with PTSD?",
+                "What is EMDR?", "What is trauma therapy?", "What is CPT?",
+                "How is PTSD treated?", "Medications for PTSD",
+                "I'm scared to do trauma therapy", "Does talking about trauma make it worse?",
+                "How long does PTSD treatment take?", "Is PTSD curable?",
+                "Therapy options for PTSD", "I don't want to relive my trauma in therapy",
+                "What is prolonged exposure therapy?", "Is PTSD permanent?",
+                "PTSD treatment without talking about the trauma"
+            ],
+            "responses": [
+                "The most evidence-based PTSD treatments are: EMDR (Eye Movement Desensitization and Reprocessing), CPT (Cognitive Processing Therapy), and Prolonged Exposure Therapy. All three have strong research support and do not require you to relive your trauma in vivid detail.",
+                "EMDR is particularly popular and effective. It uses bilateral stimulation (eye movements, taps, or sounds) while processing trauma memories. It's thought to help the brain file the traumatic memory correctly, reducing its emotional charge. Many people find it transformative.",
+                "A common fear is that therapy will make things worse. Trauma-informed therapy is carefully paced and a good therapist will never push you further than you're ready to go. You remain in control. Treatment involves some discomfort, but it's manageable and temporary.",
+                "Medication (SSRIs like sertraline or paroxetine are approved for PTSD) can help manage symptoms enough to make therapy more accessible. They don't process the trauma, but they can lower the intensity enough to do the deeper work in therapy.",
+                "PTSD is not permanent. With appropriate treatment, most people experience significant reduction in symptoms and many achieve full recovery. The brain retains neuroplasticity, it can genuinely heal and rewire. You deserve that healing."
+            ]
+        },
+
+        {
+            "tag": "ptsd_loved_one",
+            "patterns": [
+                "How do I support someone with PTSD?", "My partner has PTSD",
+                "My friend was traumatized and I want to help",
+                "How do I help someone with PTSD?", "My partner gets triggered and I don't know what to do",
+                "What should I say to someone with PTSD?", "What NOT to say to someone with PTSD?",
+                "My partner has PTSD from abuse", "How do I avoid triggering my partner?",
+                "Secondary trauma from supporting someone with PTSD",
+                "How do I support a veteran with PTSD?",
+                "My loved one won't talk about their trauma", "How do I create safety for someone with PTSD?"
+            ],
+            "responses": [
+                "The most important thing: follow their lead. Don't push them to talk about the trauma. Let them set the pace. Saying I'm here whenever you're ready, and if you're never ready that's okay too, creates safety without pressure.",
+                "What NOT to say: Just get over it, It was so long ago, You need to move on, or I understand exactly how you feel. What TO say: I believe you, Your reaction makes sense, I'm not going anywhere, How can I help right now?",
+                "Learn their triggers if they're willing to share them. Ask: Are there things that make you feel unsafe that I should know about? This shows genuine care. Then respect those limits, and don't push into trigger territory thinking you're helping them face their fears.",
+                "During an episode or flashback: stay calm, speak slowly and softly, don't touch them without asking, give them space if needed, and use their name gently. Something like your name followed by I'm right here. You're safe. I'm not going anywhere.",
+                "Supporting someone with PTSD can cause secondary traumatic stress in caregivers. Please take care of yourself too. Your own therapy, support groups, and clear personal limits are not selfish, they are absolutely necessary."
+            ]
+        },
+
+        {
+            "tag": "adhd_general",
+            "patterns": [
+                "What is ADHD?", "Tell me about ADHD", "I think I have ADHD",
+                "ADHD information", "Attention deficit hyperactivity disorder",
+                "I can't focus on anything", "I have trouble paying attention",
+                "I'm always distracted", "I can never finish tasks",
+                "Is ADHD real?", "What causes ADHD?", "Is ADHD just laziness?",
+                "ADHD in adults", "I was diagnosed with ADHD",
+                "How do I know if I have ADHD?", "Types of ADHD",
+                "ADHD vs normal distraction", "My brain feels chaotic",
+                "I hyperfocus on things I like but can't focus on things I must do"
+            ],
+            "responses": [
+                "ADHD (Attention-Deficit/Hyperactivity Disorder) is a neurodevelopmental condition characterized by persistent patterns of inattention, hyperactivity, and/or impulsivity that interfere with daily functioning. It's neurological in origin, not a character flaw or a lack of effort.",
+                "There are three presentations of ADHD: Predominantly Inattentive, Predominantly Hyperactive-Impulsive, and Combined. ADHD looks very different in different people. Not everyone with ADHD is hyperactive, and many adults were never diagnosed as children.",
+                "ADHD is one of the most misunderstood conditions. It's not about not trying hard enough. ADHD involves genuine differences in brain structure and dopamine regulation. People with ADHD often try much harder than neurotypical peers just to achieve the same results.",
+                "Hyperfocus, the ability to intensely concentrate on highly interesting tasks while struggling with routine ones, is a hallmark of ADHD. This isn't inconsistency or laziness. It's the dopamine-driven motivation system working differently than in neurotypical brains.",
+                "ADHD is very common, affecting roughly 5 to 7 percent of children and 2 to 5 percent of adults, and is increasingly recognized in adults who weren't diagnosed in childhood. Women and girls are especially often missed or misdiagnosed. Would you like to talk more about symptoms or management?"
+            ]
+        },
+
+        {
+            "tag": "adhd_symptoms",
+            "patterns": [
+                "What are the symptoms of ADHD?", "ADHD symptoms in adults",
+                "How do I know if I have ADHD?", "Signs of ADHD",
+                "I lose things constantly", "I forget things all the time",
+                "I interrupt people when they're talking", "I can't sit still",
+                "I procrastinate on everything", "I'm chronically late",
+                "I start things but never finish them", "I can't prioritize tasks",
+                "My emotions are all over the place", "ADHD and emotional dysregulation",
+                "I can't read more than a page", "ADHD in women", "ADHD looks different in girls",
+                "Time blindness", "I have no sense of time"
+            ],
+            "responses": [
+                "ADHD symptoms include: difficulty sustaining attention, being easily distracted, losing items frequently, forgetting daily tasks, difficulty with time management (time blindness), impulsive decision-making, interrupting others, and feeling restless even when sitting still.",
+                "Time blindness is one of the most disabling ADHD features. It's not just poor time management but a neurological difficulty perceiving time as it passes. This explains chronic lateness and difficulty estimating how long tasks take. It's not disrespect, it's a brain difference.",
+                "Emotional dysregulation is a hugely underrecognized ADHD symptom: intense emotional reactions, Rejection Sensitive Dysphoria (extreme sensitivity to perceived rejection), and difficulty calming down once upset. This can significantly affect relationships and self-esteem.",
+                "ADHD in women often presents differently: more inattentive than hyperactive, internalized restlessness, anxiety, people-pleasing, and high masking. This is why so many women reach adulthood undiagnosed, their ADHD was invisible by typical diagnostic standards.",
+                "ADHD symptoms often worsen in environments with high demand, low structure, or high stress. This explains why many people first get diagnosed in college or when starting demanding jobs. The context reveals what was always there."
+            ]
+        },
+
+        {
+            "tag": "adhd_coping",
+            "patterns": [
+                "How do I cope with ADHD?", "ADHD coping strategies",
+                "How do I focus with ADHD?", "What helps with ADHD?",
+                "ADHD productivity tips", "How to manage time with ADHD",
+                "How do I stop procrastinating with ADHD?", "How to build habits with ADHD",
+                "ADHD and organization tips", "How to remember things with ADHD",
+                "I need help managing my ADHD daily", "Body doubling for ADHD",
+                "Pomodoro technique for ADHD", "How to deal with ADHD at work",
+                "How to make ADHD work for me", "ADHD and exercise",
+                "How do I stop losing things?", "ADHD life hacks"
+            ],
+            "responses": [
+                "External structure is key for ADHD: timers, alarms, calendars, and written checklists compensate for weak internal time and task management. Tools like Google Calendar with reminders or physical sticky notes aren't workarounds, they're how ADHD brains work best.",
+                "The Pomodoro Technique works well for many ADHD brains: work for 25 minutes, take a 5-minute break, repeat 4 times, then take a longer break. The time limit makes tasks feel less overwhelming, and the breaks prevent mental fatigue.",
+                "Body doubling, working alongside another person physically or via video, is remarkably effective for ADHD. The social presence regulates attention. Virtual co-working platforms like Focusmate are designed specifically for this purpose.",
+                "For ADHD paralysis (the inability to start a task despite wanting to): use the 2-minute rule (if it takes under 2 minutes, do it now), break tasks into micro-steps, or use implementation intentions: When X happens, I will do Y. This automates the start decision.",
+                "Exercise is exceptionally beneficial for ADHD. It raises dopamine and norepinephrine levels, improving focus and executive function for several hours afterward. Many people find that working out before demanding tasks makes a significant difference."
+            ]
+        },
+
+        {
+            "tag": "adhd_triggers",
+            "patterns": [
+                "What makes ADHD worse?", "ADHD triggers", "My ADHD gets worse when stressed",
+                "ADHD and sleep deprivation", "Why is my ADHD worse today?",
+                "ADHD and screen time", "Social media makes my ADHD worse",
+                "ADHD and diet", "Sugar and ADHD", "Caffeine and ADHD",
+                "Why can't I focus even more than usual today?", "ADHD and hormones",
+                "ADHD during periods", "Why is my ADHD worse at night?",
+                "ADHD and anxiety together", "Why does boredom make ADHD so hard?",
+                "Open offices and ADHD", "Noisy environments and ADHD"
+            ],
+            "responses": [
+                "ADHD symptoms are significantly worsened by: poor sleep, high stress, poor nutrition, dehydration, excessive screen time (especially social media), and chaotic environments. These aren't excuses, they're evidence-based factors that directly impact ADHD brain chemistry.",
+                "Sleep deprivation is particularly toxic for ADHD. It impairs the prefrontal cortex which is already the most affected brain region in ADHD. Consistent, quality sleep of 7 to 9 hours is one of the highest-impact, no-cost ADHD interventions available.",
+                "Hormonal fluctuations significantly affect ADHD. Many women report dramatic symptom shifts across their menstrual cycle and during perimenopause, as estrogen modulates dopamine activity. This is legitimate and worth discussing with your doctor.",
+                "Boredom is genuinely painful for ADHD brains. They require higher levels of stimulation to maintain dopamine. This explains smartphone addiction patterns in ADHD, as devices provide constant dopamine hits. Reducing passive scrolling helps.",
+                "Social media's variable-reward mechanism is specifically designed to exploit the dopamine-seeking ADHD brain. Many people with ADHD find that app limits and phone-free work periods dramatically improve both focus and mood throughout the day."
+            ]
+        },
+
+        {
+            "tag": "adhd_therapy",
+            "patterns": [
+                "What is the best treatment for ADHD?", "Does therapy help with ADHD?",
+                "ADHD medications", "Should I take Adderall?", "What is Ritalin?",
+                "How is ADHD treated?", "ADHD without medication",
+                "Is ADHD medication safe?", "I'm scared of ADHD medication",
+                "Does CBT work for ADHD?", "ADHD coaching",
+                "Therapy options for ADHD", "How long does ADHD treatment take?",
+                "Non-medication ADHD treatment", "ADHD medication side effects",
+                "My doctor wants to prescribe medication for ADHD",
+                "Does ADHD get better with age?"
+            ],
+            "responses": [
+                "ADHD treatment typically involves medication (stimulants like methylphenidate/Ritalin or amphetamines/Adderall, or non-stimulants like atomoxetine), behavioral therapy, and psychoeducation. Medication is highly effective for 70 to 80 percent of people with ADHD by normalizing dopamine regulation.",
+                "CBT adapted for ADHD addresses the secondary challenges: low self-esteem, procrastination, disorganization, and emotional dysregulation. It doesn't change the ADHD brain but helps build compensatory strategies and address the psychological impact of years of struggling undiagnosed.",
+                "ADHD coaching is a practical, goal-oriented support that helps with organization, time management, and accountability. Many people find a combination of medication and coaching more effective than either alone, particularly for adult ADHD.",
+                "Stimulant medication concerns are valid and worth discussing with a psychiatrist. They're generally safe and well-tolerated when properly prescribed and monitored. Side effects like appetite suppression or sleep issues are usually manageable and dose-dependent.",
+                "ADHD doesn't disappear with age for most people, but many adults develop better compensatory strategies and learn to leverage their ADHD strengths. With proper treatment, people with ADHD can genuinely thrive. Many describe treatment as finally being able to be themselves."
+            ]
+        },
+
+        {
+            "tag": "adhd_loved_one",
+            "patterns": [
+                "How do I support someone with ADHD?", "My partner has ADHD",
+                "My child has ADHD", "My friend has ADHD",
+                "How do I help someone with ADHD?", "My partner keeps forgetting things",
+                "My partner with ADHD is always late", "ADHD and relationships",
+                "How do I not take ADHD personally?", "My ADHD partner loses things constantly",
+                "How do I communicate with someone with ADHD?",
+                "ADHD and parenting", "Raising a child with ADHD",
+                "My loved one won't get help for their ADHD",
+                "Is ADHD an excuse?", "How to set limits with someone with ADHD"
+            ],
+            "responses": [
+                "ADHD behaviors like forgetting, being late, losing things, and impulsive responses are symptoms, not character flaws or a lack of care. Separating the person from the disorder is crucial. You don't care about me is often more accurately ADHD makes certain things genuinely hard.",
+                "For communication: be clear and direct rather than hinting. Short sentences work better than long explanations. Written reminders, a text or a note, complement verbal communication. Checking what did you hear me say reduces misunderstanding without being condescending.",
+                "For raising a child with ADHD: consistent structure and predictable routines are enormously helpful. Positive reinforcement works better than punishment for ADHD brains. Advocating for school accommodations like extended test time or preferential seating can be life-changing.",
+                "Setting limits with someone with ADHD: be specific and consistent. Vague expectations are particularly hard for ADHD brains. Instead of please be on time more often, try I need us to leave by 10am. Can you set a phone alarm for 9:30?",
+                "Caring for or partnering with someone with ADHD can be frustrating and exhausting. Support groups for partners and family members of people with ADHD exist and provide real relief. Your feelings are valid, and your needs in the relationship matter too."
+            ]
+        },
+
+        {
+            "tag": "eating_disorder_general",
+            "patterns": [
+                "What is an eating disorder?", "Tell me about eating disorders",
+                "I think I have an eating disorder", "I have a difficult relationship with food",
+                "Eating disorder information", "Types of eating disorders",
+                "What is anorexia?", "What is bulimia?", "What is binge eating disorder?",
+                "What is ARFID?", "What is orthorexia?", "I'm obsessed with food",
+                "Food controls my life", "I'm scared of food",
+                "I feel out of control around food", "My eating habits are unhealthy",
+                "I'm in recovery from an eating disorder", "Do I have an eating problem?"
+            ],
+            "responses": [
+                "Eating disorders are serious mental health conditions involving persistent disturbances in eating behaviors and related thoughts and feelings. They're among the most dangerous mental health conditions, but with treatment, recovery is absolutely possible.",
+                "Common eating disorders include: Anorexia Nervosa (restriction of food intake), Bulimia Nervosa (binge-purge cycles), Binge Eating Disorder (recurrent episodes of eating large amounts without compensatory behaviors), ARFID (extreme food aversions), and Orthorexia (obsession with healthy eating). Each deserves proper, specialized care.",
+                "Eating disorders are NOT about vanity or food choices. They're complex mental health conditions rooted in anxiety, trauma, control, perfectionism, and distorted body image. They affect people of all genders, body sizes, ages, and backgrounds.",
+                "You mentioned a difficult relationship with food, and I want you to know that takes real courage to acknowledge. Whatever you're experiencing, you deserve compassionate, specialized support. Would you like to talk more about what you're going through?",
+                "Eating disorders have the highest mortality rate of any psychiatric condition, but the majority of people who receive evidence-based treatment do recover. Recovery is not linear and takes time, but it is real and absolutely worth fighting for."
+            ]
+        },
+
+        {
+            "tag": "eating_disorder_symptoms",
+            "patterns": [
+                "What are the signs of an eating disorder?", "Eating disorder symptoms",
+                "How do I know if I have an eating disorder?",
+                "I skip meals and don't feel hungry", "I feel guilty after eating",
+                "I can't stop eating sometimes", "I'm afraid of gaining weight",
+                "I check my body constantly", "I feel disgusted with my body",
+                "I exercise excessively to compensate for eating", "I restrict what I eat severely",
+                "I eat in secret", "I think about food all the time",
+                "I feel fat even when people say I'm not", "Physical symptoms of eating disorders",
+                "Am I just being healthy or do I have an eating disorder?",
+                "My relationship with food feels obsessive"
+            ],
+            "responses": [
+                "Warning signs of eating disorders include: preoccupation with food, weight, or body shape; rigid food rules; eating in secret; extreme restriction or binge eating; compensatory behaviors like excessive exercise; distorted body image; and withdrawal from social eating.",
+                "Feeling intense guilt, shame, or anxiety around eating, regardless of what or how much you ate, is a significant sign that your relationship with food needs support. These feelings are not normal or necessary, and you don't have to live with them.",
+                "Physical warning signs include: fatigue, dizziness, hair loss, fine body hair from malnutrition, dental erosion from purging, swollen glands, feeling cold all the time, and irregular heartbeat. These signal that the body is under serious physiological stress.",
+                "Body dysmorphia, seeing yourself as larger or more flawed than you actually are, is a core feature of several eating disorders. This perceptual distortion is neurological, not a matter of just looking in the mirror more carefully. It requires therapeutic treatment.",
+                "If you're recognizing several of these signs in yourself, please know that what you're experiencing is real, it deserves treatment, and you are not to blame. Reaching out, as you're doing now, is the most important first step."
+            ]
+        },
+
+        {
+            "tag": "eating_disorder_coping",
+            "patterns": [
+                "How do I cope with an eating disorder?", "Eating disorder coping strategies",
+                "How do I stop restricting food?", "How do I stop binge eating?",
+                "How to have a healthier relationship with food",
+                "How do I eat without guilt?", "Mindful eating tips",
+                "How to challenge food rules", "How to stop calorie counting obsessively",
+                "How to deal with bad body image days", "I had a setback in recovery",
+                "How do I practice intuitive eating?", "How to manage urges with an eating disorder?",
+                "How to eat socially when you have an eating disorder",
+                "I relapsed in my eating disorder recovery", "Recovery from eating disorder feels impossible"
+            ],
+            "responses": [
+                "Recovery from an eating disorder requires professional support, but between appointments, some helpful strategies include: eating at regular intervals to stabilize hunger signals, reducing mirror-checking and body-measuring behaviors, and practicing self-compassion after difficult meals.",
+                "Mindful eating, eating slowly, without screens, noticing taste, texture, and fullness signals, can help rebuild trust with food over time. This is different from restrictive or clean eating. It's about reconnecting with your body's natural wisdom.",
+                "On difficult body image days: avoid mirrors and body-checking, wear comfortable clothing, do a grounding exercise, call your therapist or a trusted friend. Remember: your worth as a person is completely separate from your appearance or what you ate today.",
+                "If you've relapsed or had a setback, please hear this: relapse is a normal, expected part of eating disorder recovery. It does not erase your progress. What matters is compassionately returning to your recovery plan rather than using the setback to justify continued harmful behaviors.",
+                "Eating socially can feel terrifying with an eating disorder. Some strategies: eat something before social meals to reduce intense hunger, have a check-in with your therapist before challenging situations. Recovery includes reclaiming your social life and that is worth working toward."
+            ]
+        },
+
+        {
+            "tag": "eating_disorder_triggers",
+            "patterns": [
+                "What triggers eating disorder behaviors?", "My eating disorder gets worse when stressed",
+                "Social events trigger my eating disorder", "Comments about my body trigger me",
+                "Diet culture triggers my eating disorder", "I get triggered by seeing thin people",
+                "Seeing food photos triggers me", "Family meals trigger my eating disorder",
+                "Weighing myself makes me spiral", "Why does my eating disorder get worse seasonally?",
+                "Social media and eating disorders", "Fitness content triggers me",
+                "My eating disorder is worse during the holidays",
+                "Trauma triggers my eating disorder behaviors", "Why am I triggered by certain foods?"
+            ],
+            "responses": [
+                "Common eating disorder triggers include: stress and anxiety, diet culture and appearance-focused media, comments about food, bodies, or weight, social eating situations, certain emotions like shame or loneliness, trauma responses, and internal physical sensations of hunger.",
+                "Social media is a significant trigger for many people with eating disorders. Diet culture, fitness accounts, body comparisons, and healthy eating content can all fuel disordered thinking. Unfollowing accounts that trigger you is not weakness, it's excellent self-care.",
+                "Comments about your body, even well-intentioned ones like you look so healthy or you've lost weight, can be powerful triggers. It's completely okay to tell people you'd prefer not to discuss bodies or food, and to set that limit firmly and consistently.",
+                "Holidays and family gatherings often spike eating disorder symptoms due to disrupted routine, family dynamics, food being central and commented on, and loss of environmental control. Planning in advance with your treatment team for these periods is really important.",
+                "Weighing yourself frequently is almost universally destabilizing for people with eating disorders. Many treatment programs recommend removing scales entirely during recovery. Your weight on any given day does not reflect your worth, your health, or the validity of your recovery."
+            ]
+        },
+
+        {
+            "tag": "eating_disorder_therapy",
+            "patterns": [
+                "What is the best treatment for eating disorders?", "Does therapy help eating disorders?",
+                "What is FBT?", "What is CBT-E?", "What is DBT for eating disorders?",
+                "How are eating disorders treated?", "Medications for eating disorders",
+                "I need help for my eating disorder", "How do I find an eating disorder specialist?",
+                "Do I need inpatient treatment?", "Is recovery from an eating disorder possible?",
+                "How long does eating disorder treatment take?", "What is weight restoration?",
+                "I'm scared of eating disorder treatment", "Will treatment make me gain weight?",
+                "Eating disorder treatment options", "What is medical monitoring in eating disorders?"
+            ],
+            "responses": [
+                "Evidence-based treatments for eating disorders include: CBT-E (Enhanced CBT designed specifically for eating disorders), FBT/Maudsley Approach (particularly effective for adolescents), DBT (especially for emotional regulation), and Acceptance and Commitment Therapy (ACT). A specialized eating disorder team is ideal.",
+                "Treatment levels range from outpatient therapy to Intensive Outpatient Programs (IOP), Partial Hospitalization (PHP), Residential treatment, and Inpatient medical stabilization. The right level depends on medical and psychological severity, which a doctor can assess.",
+                "Fears about treatment, particularly around weight or body changes, are very common. A good treatment team explains everything, involves you in decisions, and moves at a clinically informed pace. The goal is not just physical stability but genuine psychological recovery.",
+                "For severe restriction or purging, medical monitoring alongside psychological treatment is important. Eating disorders can cause serious cardiac, electrolyte, and bone density complications. A physician working alongside a therapist and registered dietitian is the ideal team.",
+                "Recovery from eating disorders is absolutely possible. Many people achieve full recovery and go on to live lives where food and their body are no longer the center of their world. You deserve that freedom. If you're in India, iCall (9152987821) can help connect you with specialists."
+            ]
+        },
+
+        {
+            "tag": "eating_disorder_loved_one",
+            "patterns": [
+                "How do I support someone with an eating disorder?", "My friend has an eating disorder",
+                "My child has an eating disorder", "My partner has an eating disorder",
+                "How do I help someone who isn't eating?", "I think my friend has bulimia",
+                "I think my daughter has anorexia", "What should I say to someone with an eating disorder?",
+                "What NOT to say to someone with an eating disorder?",
+                "How do I bring up my concerns about someone's eating?",
+                "My loved one denies having an eating disorder",
+                "How do I support someone in eating disorder recovery?",
+                "Family meals when someone has an eating disorder",
+                "My loved one is refusing treatment for their eating disorder"
+            ],
+            "responses": [
+                "The most important first step is having a compassionate, private conversation focused on your concern for them, not their body or eating behaviors. Lead with love: I care about you and I've been worried. I'm not here to judge, I just want to understand how you're doing.",
+                "What NOT to say: You look fine, Just eat, Others have it worse, You're being selfish, or any comments about their weight or appearance. What TO say: I'm here, I believe you, This isn't your fault, and I'll help you find support.",
+                "Don't make mealtimes a battleground. Avoid commenting on what or how much they eat, keep meals calm and regular, and model a healthy, neutral relationship with food yourself. Eating with them if they're comfortable can reduce the isolation that often surrounds meals.",
+                "If they're denying there's a problem, don't force it, but keep the door open. Share resources gently. You can't force treatment on an adult, but you can make clear that you're available, that you care, and that help exists whenever they're ready.",
+                "Supporting someone with an eating disorder is emotionally taxing. Join a family support group, consider your own therapy, and maintain clear personal limits. You cannot recover for them, you can only create conditions where they feel safe enough to choose recovery themselves."
             ]
         }
+
     ]
 }
